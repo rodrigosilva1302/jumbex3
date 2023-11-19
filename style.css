@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E3411D; /* Cor de fundo desejada */
+     
+
+}
+
+.container {
+    text-align: center; /* Centraliza o conteúdo interno */
+    color: #fff; /* Cor do texto */
+    width: 80%; /* Largura do contêiner */
+    margin-top: 25px;
+    margin-bottom: 0px;
+
+}
+
+header {
+    border-top: 2px solid black; /* Linha acima do header */
+    border-bottom: 2px solid black; /* Linha abaixo do header */
+    padding: 20px 0; /* Espaçamento interno no header */
+    
+}
+
+h1 {
+    font-size: 45px; /* Tamanho do texto do h1 */
+}
+
+#search-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.search-bar {
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    width: 750px;
+    height: 40px;
+    font-size: 25px;
+}
+
+main {
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 1.8);
+ 
+}
+
+.links {
+  width: 100%; /* Define a largura para 90% da largura da tela */
+  margin: 0 auto; /* Centraliza horizontalmente o elemento */
+  /* Adicione estilos para o contêiner dos links, se necessário */
+}
+
+.links a {
+  display: inline-block;
+  margin: 30px; /* Adicione margem entre os links conforme desejado */
+}
+
+.links img.img-hover {
+  transition: transform 0.3s ease-in-out;
+}
+
+.links img.img-hover:hover {
+  transform: scale(1.1);
+}
+footer {
+    /* Estilos para o rodapé */
+}
