@@ -1,0 +1,118 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.homepage {
+    background-color: #E3411D;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
+    text-align: center;
+}
+
+.bt-CAF {
+    padding-right: 25px;
+}
+
+.bt-jumbo {
+    padding-left: 25px;
+}
+
+.bt-docs {
+    padding-right: 25px;
+}
+
+.bt-shop {
+    padding-left: 25px;
+}
+
+footer {
+    text-align: center;
+}
+
+.homepage2 {
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
+}
+
+.rs {
+    list-style: none;
+    padding-left: 50px;
+}
+
+.rs li {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.img-hover {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.img-hover:hover {
+    opacity: 0.5;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    margin-bottom: 0px;
+    text-align: center;
+    color: black;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+#search-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.search-bar {
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    width: 750px;
+    height: 40px;
+    font-size: 25px;
+}
+
+.quem-somos {
+    font-size: 40px;
+    text-decoration: none;
+    font
