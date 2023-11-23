@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e34010;
+}
+
+.container {
+  text-align: center;
+  color: #fff;
+  max-width: 100%;
+  padding-top: 80px;
+}
+
+header {
+  border-bottom: 2px solid black;
+  padding-bottom: 40px;
+  max-width: 100%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 45px;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+  max-width: 60%;
+  margin: auto;
+}
+
+.logo,
+.logo img {
+  max-width: 100%;
+}
+
+#search-container {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: auto;
+}
+
+.search-bar {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  font-size: 25px;
+  outline: none;
+}
+
+#search-container img {
+  cursor: pointer;
+}
+
+#links {
+  max-width: 100%;
+  display: grid;
+  place-items: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#links img {
+  max-width: 100%;
+  }
+
+.img-hover {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.img-hover:hover {
+  opacity: 0.5;
+}
+
+footer {
+  text-align: center;
+  padding-top: 60px;
+
+}
+
+h3 {
+  font-size: 36px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.canais {
+  padding-bottom: 40px;
+}
+.canais a {
+  margin-left: 20px; 
+  margin-right: 20px;
+}
+
+
+.tel a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #000000;
+
+}
+
+.qs {
+  padding-top: 30px;
+}
+
+.qs a {
+  text-decoration: none !important;
+  }
+
+h2 {
+  border-top: 2px solid black;
+   margin: auto;
+  color: black;
+  text-decoration: none;
+  font-family: Georgia, serif;
+  color: black;
+}
+
+
